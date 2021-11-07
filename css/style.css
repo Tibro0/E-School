@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* E-School coad start */
+.header-section{
+    width: 100%;
+    background-color: #F0FFF0;
+}
+.main-header{
+    width: 100%;
+}
+.main-header .bg-light{
+    background-color: #F0FFF0 !important;
+}
+.main-header .navbar-light .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 0px 24px;
+    color: #000;
+}
+.main-header .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 28px;
+    border-radius: 33px;
+    margin-left: 29px;
+    margin-top: -3px;
+    background-color: #21B573;
+    border: 1px solid #21B573;
+    color: #fff;
+    transition: .5s;
+}
+.main-header .btn-success:hover, .main-header .btn-success:focus{
+    background-color: transparent;
+    border: 1px solid #21B573;
+    color: #21B573;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner .inner-banner{
+    width: 100%;
+}
+.banner .inner-banner h6{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#FD511A;
+}
+.banner .inner-banner h1{
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: bold;
+}
+.banner .inner-banner h1 span{
+    color: #21B573;
+}
+.banner .inner-banner p{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #6C6B6B;
+    ;
+}
+.banner .inner-banner .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 36px;
+    margin-top: 14px;
+    border-radius: 33px;
+    background-color: #21B573;
+    border: 1px solid #21B573;
+    color: #fff;
+    transition: .5s;
+}
+.banner .inner-banner .btn-success:hover, .banner .inner-banner .btn-success:focus{
+    background-color: transparent;
+    border: 1px solid #21B573;
+    color: #21B573;
+}
+/* feature-section coad start */
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature-section .inner-feature{
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+.feature-section .inner-feature img{
+    width: 66px;
+    height: 85px;
+    margin-bottom: 22px;
+}
+.feature-section .inner-feature h6{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    margin: 0px;
+}
+.feature-section .inner-feature p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.feature-section .inner-feature:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/* feature-section coad end */
+
+/* courses-section coad start */
+.courses-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.courses-section h1{
+    font-size: 48px;
+    text-align: center;
+    line-height: 54px;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 62px;
+}
+.courses-section .card {
+    padding: 25px 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 0px
+}
+.courses-section .card .card-img-top{
+    border-radius: 10px;
+}
+.courses-section .card .card-body{
+    padding: 20px 0px 0px;
+}
+.courses-section .card .card-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.courses-section .card .card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.courses-section .card .btn-success{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 28px;
+    margin-bottom: 35px;
+    border-radius: 33px;
+    background-color: #21B573;
+    border: 1px solid #21B573;
+    color: #fff;
+    transition: .5s;
+}
+.courses-section .card .btn-success:hover, .courses-section .card .btn-success:focus{
+    background-color: transparent;
+    border: 1px solid #21B573;
+    color: #21B573;
+}
+.courses-section .card .date{
+    width: 100%;
+    text-align: right;
+}
+.courses-section .card .date p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    text-align: left;
+}
+.courses-section .card .date i{
+    width: 25px;
+    height: 25px;
+    text-align: left;
+}
+.courses-section .card .pepole{
+    width: 100%;
+}
+.courses-section .card .pepole p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    text-align: right;
+}
+.courses-section .card .pepole i{
+    width: 25px;
+    height: 25px;
+}
+/* courses-section coad end */
+/* Testimonial-section coad start */
+.testimonial{
+    width: 100%;
+    padding-bottom: 90px;;
+}
+.testimonial h1{
+    font-size: 48px;
+    text-align: center;
+    line-height: 54px;
+    font-weight: 700;
+    color: #413960;
+    margin: 75px 0px;
+}
+.testimonial .card{
+    border: none;
+    padding-bottom: 30px;
+}
+.testimonial .card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.testimonial .card .card-body{
+    padding-left: 45px;
+}
+.testimonial .card .card-body .card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+}
+/* Testimonial-section coad end */
+/* footer-section coad start */
+.footer{
+    width: 100%;
+    padding: 80px 0px 10px;
+    background-color: #282531;
+}
+.footer P{
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+.footer h6{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+.footer ul{
+    padding: 0px 0px 75px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+.copyright{
+    color: #CDCDCD;
+    text-align: center;
+    font-size: 16px;
+}
+/* footer-section coad end */
