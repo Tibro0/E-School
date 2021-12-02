@@ -1,0 +1,218 @@
+    /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    /* feature-section coad start */
+    .feature-section .inner-feature h6{
+        font-size: 22px;
+    }
+    .feature-section .inner-feature p{
+        font-size: 14px;
+    }
+    /* feature-section coad end */
+    /* courses-section coad start */
+    .courses-section .card .date p{
+        font-size: 12px;
+    }
+    .courses-section .card .pepole p{
+        font-size: 12px;
+    }
+    /* courses-section coad end */
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* header start */
+    .main-header .navbar-light .navbar-nav .nav-link{
+      margin-left: 0px;
+    }
+    .main-header .btn-success{
+      margin-top: 15px;
+      margin-left: 0px;
+    }
+    /* header end */
+    /* feature-section coad start */
+    .feature-section .inner-feature{
+      margin-bottom: 20px;
+    }
+    /* feature-section coad end */
+    /* courses-section coad start */
+    .courses-section .card{
+      margin-bottom: 20px;
+    }
+    /* courses-section coad end */
+    /* footer-section coad start */
+    .footer{
+      text-align: center;
+    }
+    .footer P{
+      margin-bottom: 50px;
+    }
+    /* footer-section coad end */
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* header start */
+    .main-header .navbar-light .navbar-nav .nav-link{
+      margin-left: 0px;
+    }
+    .main-header .btn-success{
+      margin-top: 15px;
+      margin-left: 0px;
+    }
+    /* header end */
+    /* feature-section coad start */
+    .feature-section .inner-feature{
+      margin-bottom: 20px;
+    }
+    /* feature-section coad end */
+    /* courses-section coad start */
+    .courses-section .card{
+      margin-bottom: 20px;
+    }
+    /* courses-section coad end */
+    /* footer-section coad start */
+    .footer{
+      text-align: center;
+    }
+    .footer P{
+      margin-bottom: 50px;
+    }
+    /* footer-section coad end */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    /* header start */
+    .main-header .navbar-light .navbar-nav .nav-link{
+      margin-left: 10px;
+    }
+    .main-header .btn-success{
+      margin-top: 15px;
+      margin-left: 5px;
+    }
+    /* header end */
+    /* feature-section coad start */
+    .feature-section .inner-feature{
+       margin-bottom: 20px;
+    }
+    /* feature-section coad end */
+    /* courses-section coad start */
+    .courses-section .card{
+      margin-bottom: 20px;
+    }
+    .courses-section .card .pepole p{
+      margin-top: -44px;
+    }
+    /* courses-section coad end */
+    /* Testimonial-section coad start */
+    .testimonial .card img{
+      margin-left: 37%;
+      margin-bottom: 30px;
+    }
+    /* Testimonial-section coad end */
+    /* footer-section coad start */
+    .footer{
+      text-align: center;
+    }
+    .footer P{
+      margin-bottom: 50px;
+    }
+    /* footer-section coad end */
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* header start */
+    .main-header .navbar-light .navbar-nav .nav-link{
+      margin-left: 10px;
+    }
+    .banner{
+      padding-top: 0px;
+    }
+    .banner .inner-banner h1{
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .banner .inner-banner p{
+      font-size: 11px;
+      line-height: 24px;
+    }
+    .main-header .btn-success{
+      margin-top: 15px;
+      margin-left: 5px;
+    }
+    /* header end */
+    /* feature-section coad start */
+    .feature-section .inner-feature{
+      margin-bottom: 20px;
+   }
+   /* feature-section coad end */
+   /* courses-section coad start */
+   .courses-section h1{
+     font-size: 35px;
+   }
+   .courses-section .card{
+    margin-bottom: 20px;
+  }
+   .courses-section .card .date p{
+     font-size: 13px;
+   }
+   .courses-section .card .pepole p{
+     font-size: 13px;
+     margin-top: -44px;
+   }
+   /* courses-section coad end */ 
+   /* Testimonial-section coad start */
+   .testimonial h1{
+     font-size: 35px;
+   }
+   .testimonial .card img{
+    margin-left: 31%;
+    margin-bottom: 30px;
+  }
+  .testimonial .card .card-body .card-text{
+    width: 100%;
+    text-align: center;
+  }
+  /* Testimonial-section coad end */
+  /* footer-section coad start */
+  .footer{
+    text-align: center;
+  }
+  .footer P{
+    margin-bottom: 50px;
+    font-size: 12px;
+  }
+  /* footer-section coad end */
+  }
